@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Classes</title>
+</head>
+
+<body>
+    <h2>Estilizar link</h2>
+    <p>
+        <b>
+            <a href="https://www.w3schools.com/css/css_pseudo_classes.asp" target="_blank">Link</a>
+        </b>
+    </p>
+    <p>
+        <b>Atenção:</b> tag:hover deve vir depois da tag:link e tag:visited no CSS para que seja efetivo.
+    </p>
+    <p><b>Note:</b> tag:active deve vir depois da tag:hover no CSS para que seja efetivo.</p>
+    <hr>
+    <!--- MUDAR COR DO ELEMENTO AO PASSAR O CURSOR EM CIMA -->
+    <p>Passe o mouse para que mude a cor do elemento:</p>
+    <div id="change_color">Mouse aqui</div>
+    <hr>
+    <!-- APARECE O ELEMENTO AO PASSAR O CURSOR EM CIMA -->
+    <div id="appear_text">Mouse aqui
+        <p class="view">BFGJSDGFDSHDAGDAF</p>
+    </div>
+    <hr>
+    <!-- A :first-child Pseudo Classe CORRESPONDE A UM ELEMENTO ESPECIFICADO QUE É O PRIMEIRO FILHO DE OUTRO ELEMENTO. -->
+    <div id="person_p">
+        <p>AAAAAAAAAAAAAAAAA</p>
+        <p>AAAAAAAAAAAAAAAAA</p>
+        <div>
+            <p>AAAAAAAAAAAAAAAAA</p>
+            <p>AAAAAAAAAAAAAAAAA</p>
+        </div>
+    </div>
+    <hr>
+    <!-- A :lang Pseudo Classe permite que você defina regras especiais para diferentes idiomas. -->
+    <div>
+        <p>Text <q lang="no">sitação</q> texto.</p>
+        <p>No exemplo, :lang define as aspas presente na sitação do texto com o elemento q com lang="no":</p>
+    </div>
+    <hr>
+    <!-- O ::first-line pseudoelemento é usado para adicionar um estilo especial à primeira linha de um texto. -->
+    <div id="first-line-perso">
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tristique nec mauris vel commodo. Etiam quis
+            mollis enim, finibus aliquet justo. Aenean volutpat viverra dolor, ac aliquam est mattis at. Donec nisl
+            quam, tempus quis tempor ac, placerat a magna. Suspendisse faucibus sodales imperdiet. Phasellus magna eros,
+            dapibus at pulvinar in, semper at nunc. Phasellus scelerisque rhoncus lobortis. Aliquam vitae aliquet nunc.
+            Maecenas laoreet erat non vulputate lacinia. Maecenas dictum porttitor luctus. Ut dictum sed nibh ac luctus.
+            Mauris lectus augue, tempus sit amet eros vel, porttitor venenatis elit. Mauris condimentum libero at mauris
+            varius congue.
+        </p>
+    </div>
+    <hr>
+    <!-- O ::first-letter pseudoelemento é usado para adicionar um estilo especial à primeira letra de um texto. -->
+    <div id="first-letter-perso">
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        </p>
+    </div>
+    <hr>
+    <!-- O ::beforepseudoelemento pode ser usado para inserir algum conteúdo antes do conteúdo de um elemento. -->
+    <div id="div-before">
+        <h1>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        </h1>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        </p>
+        <h1>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        </h1>
+    </div>
+    <hr>
+    <!-- O ::beforepseudoelemento pode ser usado para inserir algum conteúdo depois do conteúdo de um elemento. -->
+    <div id="div-after">
+        <h1>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        </h1>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        </p>
+        <h1>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        </h1>
+    </div>
+    <hr>
+    <!-- O ::marker pseudoelemento seleciona os marcadores dos itens da lista. -->
+    <div id="lista">
+        <ul>
+            <li>Cafe</li>
+            <li>Cha</li>
+            <li>Leite</li>
+          </ul>
+          
+          <ol>
+            <li>Primeiro</li>
+            <li>Segundo</li>
+            <li>Terceiro</li>
+          </ol>
+    </div>
+    <hr>
+    <!-- O ::selection pseudoelemento corresponde à parte de um elemento que é selecionada por um usuário. -->
+    <div id="txt-select">
+        <h1>Selecione este texto</h1>
+    </div>
+</body>
+
+</html>

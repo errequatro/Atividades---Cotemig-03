@@ -1,0 +1,83 @@
+/* link nao foi visitado */
+a:link {
+    color: blue;
+}
+
+/* link foi visitado */
+a:visited {
+    color: rgb(128, 4, 0);
+}
+
+/* mouse em cima do link */
+a:hover {
+    color: hotpink;
+}
+
+/* link selecionado */
+a:active {
+    color: blue;
+}
+
+#change_color {
+    background-color: magenta;
+    color: white;
+    padding: 25px;
+    text-align: center;
+}
+
+#change_color:hover {
+    background-color: blue;
+}
+
+hr {
+    height: 2px;
+    color: black;
+    background-color: black;
+}
+
+.view {
+    display: none;
+    background-color: brown;
+    padding: 22px;
+    color: yellow;
+}
+
+#appear_text:hover p {
+    display: block;
+}
+
+#person_p p:first-child {
+    color: rebeccapurple;
+}
+
+q:lang(no) {
+    quotes: "'" "'";
+}
+
+#first-line-perso p::first-line {
+    color: #ff0000;
+    font-variant: small-caps;
+}
+
+#first-letter-perso p::first-letter {
+    color: #ff0000;
+    font-size: xx-large;
+}
+
+#div-before h1::before {
+    content: url(smiley.gif);
+}
+
+#div-after h1::after {
+    content: url(smiley.gif);
+}
+
+#lista ::marker { 
+    color: red;
+    font-size: 23px;
+}
+
+#txt-select h1::selection {
+    color: red;
+    background: yellow;
+  }
